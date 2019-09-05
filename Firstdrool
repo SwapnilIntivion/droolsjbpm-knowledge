@@ -1,0 +1,11 @@
+@Test
+public void testevalwithbigdecimal() throws exception
+{str+=" " 
+str+="package org drools\n"
+knowledgeBuilder kb = KnowledgeBuilderFactory.new KnowledgeBuilder();
+kb.add(ResourceFactory.newByteArrayResource(str.getBytes()),ResourceType.DRL)
+if (kb.hasErrors(){
+ logger.warn(kb.getErrors().toString();
+ }
+ assertFalse(kb.HasErrors());
+ }
